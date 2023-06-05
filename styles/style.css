@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;   
+}
+.outer{
+    display: flex;
+    height: 700px;
+    width:700px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    
+}
+button{
+    align-self: flex-start;
+    margin-top:100px;
+}
+#changeColor{
+    background: aquamarine;
+}
+.box{
+    background-color: grey;
+    border:2px solid pink;
+    width:20px;
+    height: 20px;
+
+}
