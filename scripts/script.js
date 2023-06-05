@@ -10,7 +10,13 @@ for(let i=0;i<16;i++){
         box.addEventListener('mouseover',changeColor);
     }
 }
+let noSquers;
+const noSquersBtn=document.querySelector('#noSquers');
+noSquersBtn.addEventListener('click',function(){
+    noSquers=prompt('Specify No of Squers');
+});
 function changeColor(e){
     e.target.setAttribute('id','changeColor');
     console.log(e.target.id);
 }
+
