@@ -1,33 +1,44 @@
 body{
-    background-color: black;
     display: flex;
-    margin: 0px;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 .outer{
     display: flex;
     height: 700px;
     width:700px;
-    background-color: white;
+    background-color: aquamarine;
     justify-content: center;
     align-items: center;
 }
 .container{
+    width:320px;
+    height:320px;
+    background-color: white;
     display: flex;
-    
-}
-button{
-    align-self: flex-start;
-    margin-top:100px;
-}
-#changeColor{
-    background: aquamarine;
 }
 .box{
-    background-color: grey;
-    border:2px solid pink;
-    width:20px;
-    height: 20px;
-
+    background-color: burlywood;
+    border:1px solid aquamarine;
+}
+#changeColor{
+    background: white;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left:30px;
+    font-size: 15px;
+    padding:10px;
+    background-color: pink;
+    border: solid pink;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: white;
+    border: solid white;
 }
