@@ -7,5 +7,10 @@ for(let i=0;i<16;i++){
         const box=document.createElement('div');
         box.classList.add('box');
         innerConatiner.appendChild(box);
+        box.addEventListener('mouseover',changeColor);
     }
+}
+function changeColor(e){
+    e.target.setAttribute('id','changeColor');
+    console.log(e.target.id);
 }
